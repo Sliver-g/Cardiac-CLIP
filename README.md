@@ -4,7 +4,7 @@
 Before running the code, you need to install the required dependencies. You can install all the necessary packages by running the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install -r cardiac_clip_requirements.txt
 ```
 
 # Training
