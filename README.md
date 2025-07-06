@@ -16,6 +16,9 @@ The training and fine-tuning code is located in [train.py](Cardiac_CLIP/train.py
 
 # Inference
 The inference code is in [test_zeroshot.py](Cardiac_CLIP/test_zeroshot.py), which performs zero-shot inference by loading the pre-trained weights of Cardiac-CLIP. The example prompts include seven different types of heart diseases. Sample CTA and CT images are provided in the Sample folder. The labels and inference results are as follows:
+![sample_CTA](https://github.com/user-attachments/assets/9f1ccd2d-6e48-48c3-b626-80a05dcacad7)
+![sample_CT](https://github.com/user-attachments/assets/b8532d2d-249b-44fd-989b-acead8093f12)
+
 
 # Pretrained Model
 You can download the pre-trained parameters of Cardiac-CLIP from [this link](https://drive.google.com/file/d/1fxvOIYb_xMHYmTlHAvDmcMBPdPn6-uCn/view?usp=drive_link).
