@@ -1,4 +1,5 @@
 # Cardiac-CLIP
+<img src="https://github.com/user-attachments/assets/324fa6c0-5c26-4a66-9e88-7d7a691c5d6b" alt="Cardiac-CLIP" style="width:70%;">
 
 # Requirements
 Before running the code, you need to install the required dependencies. You can install all the necessary packages by running the following command:
@@ -16,8 +17,9 @@ The training and fine-tuning code is located in [train.py](Cardiac_CLIP/train.py
 
 # Inference
 The inference code is in [test_zeroshot.py](Cardiac_CLIP/test_zeroshot.py), which performs zero-shot inference by loading the pre-trained weights of Cardiac-CLIP. The example prompts include seven different types of heart diseases. Sample CTA and CT images are provided in the Sample folder. The labels and inference results are as follows:
-![sample_CTA](https://github.com/user-attachments/assets/9f1ccd2d-6e48-48c3-b626-80a05dcacad7)
-![sample_CT](https://github.com/user-attachments/assets/b8532d2d-249b-44fd-989b-acead8093f12)
+
+<img src="https://github.com/user-attachments/assets/9f1ccd2d-6e48-48c3-b626-80a05dcacad7" alt="Sample_CTA" style="width:70%;">
+<img src="https://github.com/user-attachments/assets/b8532d2d-249b-44fd-989b-acead8093f12" alt="Sample_CT" style="width:70%;">
 
 
 # Pretrained Model
