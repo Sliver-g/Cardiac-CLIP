@@ -279,7 +279,8 @@ def build_model(name, resolution_after=(128,144,144), jit=False):
         resolution_after,
     )
 
-
+    #If you do not need to retrain the entire CLIP stage, you can simply remove the code for loading that part of the weights as it is unnecessary. 
+    #--------------------------------------------------------------------
     model_path="MAE_pretrain.ckpt"
     state_dict = torch.load(model_path, map_location="cpu")
     state_dict = state_dict["state_dict"]
@@ -299,6 +300,8 @@ def build_model(name, resolution_after=(128,144,144), jit=False):
     model_dict.update(pretrained_dict2)
     # 3. load the new state dict
     model.load_state_dict(model_dict)
+    #--------------------------------------------------------------------
+    
     return model
 
    
