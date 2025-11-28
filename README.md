@@ -16,7 +16,7 @@ The training and fine-tuning code is located in [train.py](Cardiac_CLIP/train.py
 'cls' and 'multi_cls' indicate fine-tuning for single-class and multi-class classification, respectively.
 
 # Inference
-The inference code is in [test_zeroshot.py](Cardiac_CLIP/test_zeroshot.py), which performs zero-shot inference by loading the pre-trained weights of Cardiac-CLIP. The example prompts include seven different types of heart diseases. Sample CTA and CT images are provided in the Sample folder. The labels and inference results are as follows:
+The inference code is in [inference.py](Cardiac_CLIP/inference.py), which performs zero-shot inference by loading the pre-trained weights of Cardiac-CLIP. The example prompts include seven different types of heart diseases. Sample CTA and CT images are provided in the Sample folder. The labels and inference results are as follows:
 
 <img src="https://github.com/user-attachments/assets/9f1ccd2d-6e48-48c3-b626-80a05dcacad7" alt="Sample_CTA">
 <img src="https://github.com/user-attachments/assets/b8532d2d-249b-44fd-989b-acead8093f12" alt="Sample_CT" >
@@ -26,4 +26,4 @@ The inference code is in [test_zeroshot.py](Cardiac_CLIP/test_zeroshot.py), whic
 You can download the pre-trained parameters of Cardiac-CLIP from [this link](https://drive.google.com/file/d/1fxvOIYb_xMHYmTlHAvDmcMBPdPn6-uCn/view?usp=drive_link).
 
 # Citing Us
-If you use Cardiac-CLIP in your research, we appreciate your citation of our paper, which can be found [here].
+If you use Cardiac-CLIP in your research, we appreciate your citation of our paper, which can be found [[here](https://arxiv.org/abs/2507.22024)].
