@@ -29,7 +29,7 @@ _config = {
     "vocab_size" : 30522,
     "max_text_len" : 160,
     "image_size" : (128,144,144),
-    "tokenizer" : "/home/zheng_ying/M3AE-master/huggingface_model/PubMedbert/",
+    "tokenizer" : "./huggingface_model/PubMedbert/",
     "train_transform_keys" : ["clip"],
     "val_transform_keys" : ["clip"],
     "learning_rate" : 1e-5,
@@ -46,7 +46,7 @@ _config = {
     "num_gpus" : 2,
     "per_gpu_batchsize" : 16,
     "clip16" : 1,
-    "data_root":"Jundata_with_text_lung_and_construct_oneval_nonon_labelno0_v2.json",
+    "data_root":"dataset.json",
 
     
     "seed": 0,
@@ -66,7 +66,7 @@ _config = {
     # Transformer Setting
     "input_image_embed_size" : 768,
     "input_text_embed_size" : 768,
-    "vit" : '/home/zheng_ying/M3AE-master/huggingface_model/clip/ViT-B-32.pt',
+    "vit" : './huggingface_model/clip/ViT-B-32.pt',
     "num_layers" : 6,
     "mlp_ratio" : 4,
     "drop_rate" : 0.1,
