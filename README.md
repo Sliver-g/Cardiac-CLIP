@@ -24,7 +24,8 @@ The inference code is in [inference.py](Cardiac_CLIP/inference.py), which perfor
 
 # Pretrained Model
 📥You can download the pre-trained parameters of Cardiac-CLIP from [this link](https://drive.google.com/file/d/1fxvOIYb_xMHYmTlHAvDmcMBPdPn6-uCn/view?usp=drive_link).
-📥The MAE stage pretrained weight is also open-sourced. You can get it [here](https://drive.google.com/file/d/1JA2QZoSTwoBYZUB5SSFM_zxt0w-xsJFo/view?usp=sharing)
+
+📥The MAE stage pretrained weight is also open-sourced. You can get it [here](https://drive.google.com/file/d/1JA2QZoSTwoBYZUB5SSFM_zxt0w-xsJFo/view?usp=sharing).
 
 # Citing Us
 If you use Cardiac-CLIP in your research, we appreciate your citation of our paper, which can be found [[here](https://arxiv.org/abs/2507.22024)].
